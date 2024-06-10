@@ -15,13 +15,19 @@
     "dev_oov": 638,
     "test_oov": 1368
   },
-  "test_prepare_data_loader": "NameError(\"name 'dl_ds' is not defined\")",
+  "test_prepare_data_loader": {
+    "lengths": [
+      110,
+      16,
+      32
+    ]
+  },
   "test_NERNet": {
-    "f1": 0.9665721105158558,
-    "f1_wo_o": 0.6355860910839647
+    "f1": 0.9648632274392978,
+    "f1_wo_o": 0.609786154131138
   },
   "test_glove": {
-    "f1": 0.9639443239741059,
-    "f1_wo_o": 0.6010
+    "f1": 0.9657885958875487,
+    "f1_wo_o": 0.6130995266116568
   }
 }
